@@ -1,0 +1,36 @@
+.AppBar{
+    position: sticky;
+}
+
+
+.divSlideBar{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.iconButton{
+    display: none;
+}
+
+.logoBeauty{
+    height: 30px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo-container {
+    margin-right: auto;
+  }
+  
+  .buttons-container {
+    display: flex;
+    align-items: center;
+  }
+
+@media only screen and (max-width:460px){
+
+}
