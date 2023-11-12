@@ -71,6 +71,7 @@ function Register() {
               </div>
                 <div className="divTitulos">
                 <Typography component='h1' variant='h5' style={{fontSize:'2rem', height:'40px', fontWeight:'700', color:'#fdb44b',fontFamily:[ 'Source Sans Pro','sans-serif']}}>Registrar usuario</Typography>
+
                 <p style={{margin:'10px 0px 0px 0px', fontSize:'14px'}}>¿Ya tienes cuenta? <a href='/' path='/' style={{textDecoration:'none', color:'#269cc2',fontWeight:'bold'}}>Inicia sesión</a></p>
               </div>
               <div className="divLogo" style={{marginTop:'2px', marginBottom:'0.2rem'}}>
