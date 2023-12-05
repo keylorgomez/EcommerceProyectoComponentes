@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
-import Register from "./compontents/Register";
-import Login from "./compontents/Login";
+import Register from "./compontents/Register/Register";
+import Login from "./compontents/Login/Login";
  
-import Home from "./compontents/Home";
+import Home from "./pages/HomePage/HomePage";
+import ProductPage from './pages/ProductPage/ProductPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <BrowserRouter>
             <Routes>
               <Route path="/home" element= { <Home/>} />
+              <Route path="/products" element= { <ProductPage/>} />
               <Route path="/register" element= { <Register/>} />
               <Route path="/" element= { <Login/>} />
             </Routes>
