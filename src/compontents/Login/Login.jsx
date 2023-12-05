@@ -2,8 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import Footer from "./Footer/footer";
-import Header from "./Header/header";
+import Footer from "../Footer/footer";
+import Header from "../Header/header";
 import './styleLogin.css';
 import {
   Grid,
@@ -16,7 +16,7 @@ import {
   CssBaseline,
   IconButton,
 } from "@mui/material";
-import LogoBeautyPNG from './LogoComponentesSinFondo.png';
+import LogoBeautyPNG from '../LogoComponentesSinFondo.png';
 import swal from 'sweetalert';
 
 
