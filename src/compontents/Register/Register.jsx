@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
-import Footer from "./Footer/footer";
-import Header from "./Header/header";
-import './styleLogin.css';
+import Footer from "../Footer/footer";
+import Header from "../Header/header";
+import '../Login/styleLogin.css';
 import {
   Grid,
   Container,
@@ -15,7 +15,7 @@ import {
   CssBaseline,
   IconButton,
 } from "@mui/material";
-import LogoBeautyPNG from './LogoComponentesSinFondo.png';
+import LogoBeautyPNG from '../LogoComponentesSinFondo.png';
 import PersonAddRoundedIcon from '@mui/icons-material/PersonAddRounded';
 import swal from 'sweetalert';
 
