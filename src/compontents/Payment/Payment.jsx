@@ -48,7 +48,7 @@ function Payment() {
 
   const getPayments = async () => {
     try {
-      const response = await axios.get(`http://localhost:8080/api/v1/payment/getByUserIdcard/${idcard}`);
+      const response = await axios.get(`http://3.135.240.72:8080/api/v1/payment/getByUserIdcard/${idcard}`);
       setPayments(response.data);
     } catch (error) {
       console.error('Error al obtener métodos de pago:', error);
