@@ -16,7 +16,7 @@ function HomePage() {
       <div style={{backgroundColor: '#f9a59a'}}>
         <MainCarosel/>
         <div className='space-y-10 py-20  flex flex-col justify-center px-5 lg:px-10'>
-            <HomeSectionCarosel data={skin} sectionName={"Maquillaje"}/>
+            <HomeSectionCarosel data={skin} sectionName={"Catálogo maquillaje"}/>
         
         </div>
       </div>

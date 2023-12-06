@@ -21,7 +21,7 @@ const HomeSectionCarosel = ({data, sectionName}) => {
   const items = data.slice(0,10).map((item) => <HomeSectionCard product={item}/>);
 
   return (
-    <div className=" border rounded-lg">
+    <div >
         <h2 className="text-2xl font-extrabold text-gray-800 py-5">{sectionName}</h2>
       <div className="relative p-5 ">
         <AliceCarousel

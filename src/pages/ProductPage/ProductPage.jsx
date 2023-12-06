@@ -1,19 +1,23 @@
 import React from 'react'
-import Product from '../../compontents/Product/Product'
-import LoggedHeader from '../../compontents/Header/loggedHeader';
+import LoggedHeader2 from '../../compontents/Header/loggedHeader2';
 import Footer from "../../compontents/Footer/footer";
-
+import { ItemList } from "../../compontents/ShoppingCart/ItemList"
+import {ShoppingCart} from "../../compontents/ShoppingCart/ShoppingCart"
+import { ShoppingCartProvider } from '../../contexts/ShoppingCartContext';
 
 const ProductPage = () => {
   return (
     <div>
-      <React.Fragment>
-      <LoggedHeader/>
+      <ShoppingCartProvider>
+      <LoggedHeader2/>
       <div>
-        <Product/>
+        <ItemList/>
+        <ShoppingCart/>
       </div>
+      <React.Fragment>
       <Footer/>
     </React.Fragment>
+    </ShoppingCartProvider>
     </div>
   )
 }

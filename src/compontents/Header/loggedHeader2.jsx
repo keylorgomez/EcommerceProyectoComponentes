@@ -3,7 +3,9 @@ import './styleHeader.css';
 import { AppBar, Toolbar, CssBaseline, Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import LogoBeauty from './LogoComponentes2.svg';
-
+import { Link } from "react-router-dom";
+import {CartContext} from '../../contexts/ShoppingCartContext';
+import {NavBar} from '../../compontents/ShoppingCart/NavBar';
 
 
 function LoggedHeader() {
@@ -68,6 +70,7 @@ function LoggedHeader() {
         
         
         <div className="spacer" />
+        <NavBar/>
         <div className="buttons-container">
           <Button
             variant="text"

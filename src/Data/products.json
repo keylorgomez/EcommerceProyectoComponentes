@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Beauty Creations",
+    "price": 24,
+    "imgUrl": "https://hibeautycr.com/cdn/shop/files/FullSizeRender_7266f781-9b4e-4bbb-9648-35866ed9d593_1600x.jpg?v=1701456140"
+  },
+  {
+    "id": 2,
+    "name": "SHE GLAM",
+    "price": 10,
+    "imgUrl": "https://hibeautycr.com/cdn/shop/files/IMG-1616_1600x.jpg?v=1701370753"
+  },
+  {
+    "id": 3,
+    "name": "Heimish",
+    "price": 30,
+    "imgUrl": "https://hibeautycr.com/cdn/shop/files/FullSizeRender_5343cd68-c5f2-4aaf-8809-f57f19c663a9_1600x.jpg?v=1701287412"
+  },
+  {
+    "id": 4,
+    "name": "Sephora",
+    "price": 45,
+    "imgUrl": "https://hibeautycr.com/cdn/shop/files/FullSizeRender_d508371d-5ca7-4256-82ea-b3ca1ad6b309_1600x.jpg?v=1700937899"
+  },
+  {
+    "id": 5,
+    "name": "ROMANTIC BEAUTY",
+    "price": 65,
+    "imgUrl": "https://hibeautycr.com/cdn/shop/files/FullSizeRender_7a093ffe-1c04-41f9-b80d-f60a18d6aa31_1600x.jpg?v=1700600101"
+  },
+  {
+    "id": 6,
+    "name": "Flesh",
+    "price": 12,
+    "imgUrl": "https://hibeautycr.com/cdn/shop/files/IMG-0520_1600x.jpg?v=1700020546"
+  },
+  {
+    "id": 7,
+    "name": "Eucerin",
+    "price": 100,
+    "imgUrl": "https://hibeautycr.com/cdn/shop/files/FullSizeRender_bd1551b4-318e-4925-be63-b57bca1cf87a_1600x.jpg?v=1697156981"
+  }
+]
