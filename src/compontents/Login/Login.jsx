@@ -33,7 +33,7 @@ function Login() {
     }
     try {
       await axios
-        .post("http://localhost:8085/api/v1/user/login", {
+        .post("http://3.135.240.72:8080/api/v1/user/login", {
           email: email,
           password: password,
         })
